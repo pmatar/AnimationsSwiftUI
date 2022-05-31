@@ -25,7 +25,7 @@ struct MainView: View {
             Spacer()
             
            
-            AmosView(awardIsShowing: $awardIsShowing)
+            LogoView(moving: $awardIsShowing)
             
             
 //            if awardIsShowing {
@@ -37,7 +37,7 @@ struct MainView: View {
 //            }
             // with .offSet
 //                .offset(x: awardIsShowing ? 0 : -UIScreen.main.bounds.width)
-            Spacer()
+//            Spacer()
 
         }
         .font(.headline)
